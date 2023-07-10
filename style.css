@@ -117,6 +117,47 @@ body {
 }
 
 /* feature section end */
+/* optional section start */
+.optional{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding:85px 175px;
+    width: 700px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 130px;
+}
+
+.optioanl-card{
+    text-align: center;
+}
+
+/* optional section end*/
+/* discount section start*/
+.discount{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    gap: 100px;
+    padding: 100px 400px;
+    margin-bottom: 130px;
+}
+.discont-content{
+    text-align: center;
+    width: 600px;
+}
+.discount > img{
+
+    width: 280px;
+}
+
+/* discount section end*/
+
+
 
 
 
