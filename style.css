@@ -4,6 +4,14 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+
+
+/* reset  style start */
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+/* rest style end */
 /* banner section start */
 
 .banner {
@@ -43,3 +51,72 @@ body {
   margin-bottom: 0;
   margin-top: 30px;
 }
+
+
+/* banner section end */
+/* feature section start */
+
+.feature-section{
+    padding: 150px 240px;
+    text-align: center;
+}
+.feature-title{
+    margin-bottom: 24px;
+}
+.feature-section-desc {
+    width: 500px;
+    margin: auto;
+}
+.feature-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+.feature-cards > img {
+    width: 180px;
+}
+
+.feature-card-1{
+    background-color: rgba(167, 33, 98, 0.15);
+    display: block;
+    padding: 67px 74px  0px 74px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.feature-card-2{
+    background-color: rgba(5, 151, 160, 0.15);
+    display: block;
+    padding: 117px 75px  0px 75px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.feature-card-3{
+    background-color: rgba(71, 125, 17, 0.15);
+    display: block;
+    padding: 50px 75px  0px 75px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.card{
+    align-self: normal;
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: underline;
+    width: 1040px;
+    text-align: center;
+    margin: auto;
+}
+.card-title > h4 {
+    color: #272727;
+}
+
+/* feature section end */
+
+
+
