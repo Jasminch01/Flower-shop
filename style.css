@@ -11,6 +11,9 @@ body {
     font-size: 40px;
     font-weight: 700;
 }
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+}
 /* rest style end */
 /* banner section start */
 
@@ -57,11 +60,12 @@ body {
 /* feature section start */
 
 .feature-section{
-    padding: 150px 240px;
+    padding: 100px 240px 130px 240px;
     text-align: center;
 }
 .feature-title{
     margin-bottom: 24px;
+    margin-top: 0;
 }
 .feature-section-desc {
     width: 500px;
@@ -156,6 +160,85 @@ body {
 }
 
 /* discount section end*/
+/* instagram section starts*/
+
+.instagram {
+    text-align: center;
+    margin-bottom: 130px;
+}
+.instagram-title {
+    margin-bottom: 20px;
+}
+.instagram-img{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.instagram-img >img {   
+    width: 250px;
+}
+
+/* instagram section end*/
+/* subscribe section starts*/
+.subscribe {
+    width: 1100px;
+    background-image: url("img/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-content {
+    text-align: center;
+
+}
+.sub-title{
+    text-align: center;
+    margin-bottom: 0;
+}
+.email {
+    width: 400px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.sub-description {
+    text-align: center;
+}
+
+/* subscribe section end*/
+/* footer section starts*/
+.footer {
+    padding: 130px;
+    background-color: #111010;
+    color: white;
+}
+.footer-div {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+
+}
+.color {
+    color: #e55473;
+}
+.reserved {
+  color:  rgba(255, 255, 255, 0.40);
+}
+/* footer section end*/
+
+
+
 
 
 
