@@ -16,13 +16,16 @@ body {
 }
 /* rest style end */
 /* banner section start */
-
+.header {
+    background-color: rgba(229, 84, 115, 0.1);
+    width: 100%;
+}
 .banner {
   display: flex;
+  width: 1100px;
+  margin: auto;
   justify-content: space-between;
-  padding: 30px 240px 0px 240px;
   gap: 100px;
-  background-color: rgba(229, 84, 115, 0.1);
 }
 
 .banner-text-container {
@@ -217,6 +220,33 @@ body {
 }
 
 /* subscribe section end*/
+/* bouns section start*/
+.bonus-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: black;
+    color: white;
+    margin-bottom: 130px;
+    gap: 13rem;
+}
+.bonus {
+    align-self: normal;
+}
+.bouns-title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.bouns-desc {
+    text-align: center;
+}
+
+
+/* bouns section end*/
+
+
+
 /* footer section starts*/
 .footer {
     padding: 130px;
